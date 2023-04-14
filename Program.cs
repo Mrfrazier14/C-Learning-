@@ -1,12 +1,15 @@
 using System;
 
-namespace HelloWorld
+namespace GettingInput
 {
   class Program
-   {
-    stasic void Main()
+  {
+    static void Main()
     {
-     Console.writeLine ("Hello Aaron Frazier!");
-     }
-   }
- }
+      Console.WriteLine("How old are you?");
+      string input = Console.ReadLine();
+      Console.WriteLine($"You are {input} years old!");
+    }
+  }
+}
+
