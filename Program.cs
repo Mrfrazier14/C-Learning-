@@ -4,9 +4,9 @@ namespace HelloWorld
 {
   class Program
    {
-    stasic void Main ()
+    stasic void Main()
     {
-     Console.writeLine ("Hello Aaron Frazier!")
+     Console.writeLine ("Hello Aaron Frazier!");
      }
    }
  }
